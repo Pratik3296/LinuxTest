@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ATLC Automation]">
+  <test thread-count="5" verbose="0" name="ATLC(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.modules.orders.dashboard.PortInOrderOnlyTest">
+        <methods>
+          <include name="preconditions"/>
+          <include name="postConditions"/>
+          <include name="testPortIn"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.modules.orders.dashboard.PortInOrderOnlyTest -->
+      <class name="com.modules.orders.dashboard.SearchTest">
+        <methods>
+          <include name="postConditions"/>
+          <include name="preconditions"/>
+          <include name="afterTestMethod"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.modules.orders.dashboard.SearchTest -->
+      <class name="com.modules.login.LoginTest">
+        <methods>
+          <include name="preconditions"/>
+          <include name="postConditions"/>
+          <include name="afterTestMethod"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.modules.login.LoginTest -->
+      <class name="com.modules.orders.dashboard.FiltersTest">
+        <methods>
+          <include name="postConditions"/>
+          <include name="preconditions"/>
+          <include name="testFilters"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.modules.orders.dashboard.FiltersTest -->
+      <class name="com.modules.login.ForgotPasswordTest">
+        <methods>
+          <include name="preconditions"/>
+          <include name="postConditions"/>
+          <include name="afterTestMethod"/>
+          <include name="testForgotPassword"/>
+        </methods>
+      </class> <!-- com.modules.login.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- ATLC(failed) -->
+</suite> <!-- Failed suite [ATLC Automation] -->

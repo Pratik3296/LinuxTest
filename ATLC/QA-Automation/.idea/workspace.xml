@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d10caf17-6792-4031-aa7f-c4e67e192b3d" name="Changes" comment="Reports">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/genericUtils/AutoConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genericUtils/AutoConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/genericUtils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/genericUtils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/login/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/network/NetworkProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/network/NetworkProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/orders/audits/AuditPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/orders/audits/AuditPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/orders/dashboard/PortInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/orders/dashboard/PortInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/audits/AuditsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/audits/AuditsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ApproveVPOPRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ApproveVPOPRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/CancelPortInPreOrderAtCSRStageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/CancelPortInPreOrderAtCSRStageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/CancelPortInPreOrderAtLSRStageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/CancelPortInPreOrderAtLSRStageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/DashboardPortInCancelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/DashboardPortInCancelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/DashboardPortInModifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/DashboardPortInModifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ModifyPortInPreOrderAndOrderWithCSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ModifyPortInPreOrderAndOrderWithCSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ModifyVPOPCSRPendingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/ModifyVPOPCSRPendingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/OrderPortInCancelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/OrderPortInCancelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/OrderPortInModifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/OrderPortInModifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInCSROnlyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInCSROnlyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInOrderOnlyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInOrderOnlyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInPreOrderAndOrderWithCSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInPreOrderAndOrderWithCSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInPreOrderAndOrderWithOutCSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInPreOrderAndOrderWithOutCSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInSubmitLSRFromCSROnlyRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortInSubmitLSRFromCSROnlyRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/PortOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/RejectPortInPreOrderAtCSRStageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/RejectPortInPreOrderAtCSRStageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/RejectPortInPreOrderAtLSRStageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/RejectPortInPreOrderAtLSRStageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/SupplementPortInPreOrderWithLSRStageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/SupplementPortInPreOrderWithLSRStageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/VPOPUserRequestCSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/modules/orders/dashboard/VPOPUserRequestCSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/upload/ATLTestFile1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/upload/ATLTestFile1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/genericUtils/AutoConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/genericUtils/AutoConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/genericUtils/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/genericUtils/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/network/NetworkProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/network/NetworkProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/orders/audits/AuditPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/orders/audits/AuditPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/login/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/login/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/audits/AuditsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/audits/AuditsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/CancelPortInPreOrderAtCSRStageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/CancelPortInPreOrderAtCSRStageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/CancelPortInPreOrderAtLSRStageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/CancelPortInPreOrderAtLSRStageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/DashboardPortInCancelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/DashboardPortInCancelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/DashboardPortInModifyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/DashboardPortInModifyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/ModifyPortInPreOrderAndOrderWithCSRTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/ModifyPortInPreOrderAndOrderWithCSRTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/ModifyVPOPCSRPendingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/ModifyVPOPCSRPendingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/OrderPortInCancelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/OrderPortInCancelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/OrderPortInModifyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/OrderPortInModifyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInCSROnlyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInCSROnlyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInOrderOnlyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInOrderOnlyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInPreOrderAndOrderWithCSRTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInPreOrderAndOrderWithCSRTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInPreOrderAndOrderWithOutCSRTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInPreOrderAndOrderWithOutCSRTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInSubmitLSRFromCSROnlyRequestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortInSubmitLSRFromCSROnlyRequestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/PortOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/RejectPortInPreOrderAtCSRStageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/RejectPortInPreOrderAtCSRStageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/RejectPortInPreOrderAtLSRStageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/RejectPortInPreOrderAtLSRStageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/SupplementPortInPreOrderWithLSRStageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/SupplementPortInPreOrderWithLSRStageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/VPOPUserRequestCSRTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/modules/orders/dashboard/VPOPUserRequestCSRTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/upload/ATLTestFile1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/upload/ATLTestFile1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="nandini" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="nandini" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nandini" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="25BDxv244TwSAMT9iLn1F6xSQ8h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Execution Status/Extent Reports" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nandini\OneDrive - Previse Solutions LLC\ATLC\QA-Automation\Execution Status\Extent Reports" />
+      <recent name="C:\Users\Nandini\OneDrive - Previse Solutions LLC\ATLC\QA-Automation\src\test\resources" />
+      <recent name="C:\Users\Nandini\OneDrive - Previse Solutions LLC\ATLC\QA-Automation\src\test\resources\upload" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.modules.orders.dashboard" />
+      <recent name="com.modules.network" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="             mvn clean test -PSUITE -DsuiteFile=testng " />
+      <command value="             mvn clean test" />
+      <command value="mvn clean install" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.testng">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditsTest.testAudits" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="atlc-regression-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.modules.orders.audits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.modules.orders.audits" />
+      <option name="MAIN_CLASS_NAME" value="com.modules.orders.audits.AuditsTest" />
+      <option name="METHOD_NAME" value="testAudits" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Nandini/OneDrive - Previse Solutions LLC/ATLC/QA-Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="atlc-regression-automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testng" type="TestNG" show_console_on_std_err="true" show_console_on_std_out="true">
+      <output_file path="$PROJECT_DIR$" is_save="true" />
+      <log_file alias="logs" path="$PROJECT_DIR$" show_all="true" />
+      <module name="atlc-regression-automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.testng" />
+      <item itemvalue="TestNG.C:/Users/Nandini/OneDrive - Previse Solutions LLC/ATLC/QA-Automation/testng.xml" />
+      <item itemvalue="TestNG.AuditsTest.testAudits" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AuditsTest.testAudits" />
+        <item itemvalue="TestNG.C:/Users/Nandini/OneDrive - Previse Solutions LLC/ATLC/QA-Automation/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d10caf17-6792-4031-aa7f-c4e67e192b3d" name="Changes" comment="" />
+      <created>1644991845087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644991845087</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1644992123658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644992123658</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1644992932666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644992932666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="README.md update">
+      <created>1645201593688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645201593688</updated>
+    </task>
+    <task id="LOCAL-00004" summary="README.md update">
+      <created>1645205008205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645205008205</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create &quot;Port-In&quot; Order Only">
+      <created>1645519591359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645519591359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create &quot;Port-In&quot; PreOrderWithCSR">
+      <created>1645716327698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645716327698</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create &quot;Port-In&quot; PreOrderWithCSR">
+      <created>1646236230566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646236230567</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create &quot;Port-In&quot; PreOrderWithOutCSR">
+      <created>1646312667680</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646312667680</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create &quot;Port-In&quot; PreOrderWithOutCSR">
+      <created>1646312802372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646312802372</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create &quot;Port-In&quot; PreOrderWithOutCSR">
+      <created>1646319006082</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646319006082</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Reject PortIn PreOrder(CSR Stage)">
+      <created>1646668146353</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646668146353</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646752757404</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646752757404</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646811181844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1646811181844</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646830302710</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646830302710</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646837019099</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1646837019099</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646837969414</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1646837969414</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646843079489</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1646843079489</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Reject PortIn PreOrder(LSR Stage)">
+      <created>1646895283534</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1646895283534</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge branch 'nandini'">
+      <created>1646896003078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646896003078</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated code">
+      <created>1646899802388</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646899802388</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated code">
+      <created>1647016297014</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1647016297014</updated>
+    </task>
+    <task id="LOCAL-00022" summary="PortOutTest">
+      <created>1648468985258</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648468985258</updated>
+    </task>
+    <task id="LOCAL-00023" summary="CSR only order flow">
+      <created>1649758490973</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1649758490973</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Submit LSR from CSR only order flow">
+      <created>1650288151648</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650288151648</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Submit LSR from CSR only order flow">
+      <created>1650288425990</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650288425990</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Test git">
+      <created>1650452661543</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650452661543</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Test git">
+      <created>1650454181262</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1650454181263</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Reports">
+      <created>1650456415849</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456415849</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="README.md update" />
+    <MESSAGE value="Create &quot;Port-In&quot; Order Only" />
+    <MESSAGE value="Create &quot;Port-In&quot; PreOrderWithCSR" />
+    <MESSAGE value="Create &quot;Port-In&quot; PreOrderWithOutCSR" />
+    <MESSAGE value="Reject PortIn PreOrder(CSR Stage)" />
+    <MESSAGE value="Reject PortIn PreOrder(LSR Stage)" />
+    <MESSAGE value="Merge branch 'nandini'" />
+    <MESSAGE value="updated code" />
+    <MESSAGE value="PortOutTest" />
+    <MESSAGE value="CSR only order flow" />
+    <MESSAGE value="Submit LSR from CSR only order flow" />
+    <MESSAGE value="Test git" />
+    <MESSAGE value="Reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reports" />
+  </component>
+</project>

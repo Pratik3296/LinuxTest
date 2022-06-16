@@ -1,0 +1,16 @@
+com\genericUtils\BasePage$1.class
+com\genericUtils\AutoConstants.class
+com\pages\network\NetworkProfilePage.class
+com\genericUtils\BasePage.class
+com\pages\orders\audits\AuditPage.class
+com\pages\login\LoginPage.class
+com\pages\manage\usersandorganizations\UserPage.class
+com\pages\login\ForgotPasswordPage.class
+com\genericUtils\BaseTest.class
+com\pages\manage\usersandorganizations\SPIDPage.class
+com\pages\orders\querySV\QueryPage.class
+com\pages\orders\dashboard\DashboardPage.class
+com\pages\manage\notifications\EmailSubscriptionPage.class
+com\pages\manage\usersandorganizations\OrganizationPage.class
+com\pages\orders\dashboard\PortOutPage.class
+com\pages\orders\dashboard\PortInPage.class
