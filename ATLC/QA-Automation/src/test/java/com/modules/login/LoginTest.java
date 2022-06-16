@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest {
         loginToApplication(prop.getProperty("userName"),prop.getProperty("password"));
         BasePage.verifyTitle("Explore");
         portInPage.changeProfile();
-
+        Thread.sleep(1000);
     }
 
 }
