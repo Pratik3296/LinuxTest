@@ -45,6 +45,7 @@ public class BaseTest {
         prop.load(fileInput);
         System.setProperty(CHROME_DRIVER_KEY, CHROME_DRIVER_PATH);
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         // Instantiate the chrome driver
         driver = new ChromeDriver(options);
