@@ -40,13 +40,15 @@ public class BaseTest {
     @BeforeTest
     public void preconditions() throws IOException {
     	
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prati\\git\\LinuxTest\\ATLC\\QA-Automation\\src\\test\\resources\\chromedriver.exe");
-		ChromeOptions Options = new ChromeOptions();
-		Options.setHeadless(true);
-		 driver = new RemoteWebDriver(new URL("http://18.212.190.211:4445/"));
-		driver.get(" https\\://test.porting.com/\\#/Login");
-		driver.getTitle();
-		System.out.println("Title of URL is "+ driver.getTitle());
+    	
+    	DesiredCapabilities cap = new DesiredCapabilities();
+    	cap.setCapability("browserName", "chrome");
+    	try {
+    	driver = new RemoteWebDriver(new URL("http://18.212.190.211:4445/wd/hub"), cap);
+    	}catch(MalformedURLException e){
+    	e.printStackTrace();
+    	}
+	
     }
 //        prop=new Properties();
 //        String filepath1=System.getProperty("user.dir")+"/src/test/resources/config/project.properties";
